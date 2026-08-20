@@ -1,0 +1,4 @@
+interface:
+  display_name: "Macro & Market Event Analysis"
+  short_description: "Verify events and map cross-asset consequences"
+  default_prompt: "Use $macro-market-event-analysis to verify this market-moving news, explain the mechanism, test the observed reaction, and map scenarios and consequences."
