@@ -5,6 +5,7 @@
 - User question or decision:
 - Audience:
 - Factual cutoff:
+- Data vintage / point-in-time requirement:
 - Required depth and deliverable:
 - Geographies, currencies, sectors, and assets in scope:
 
@@ -27,6 +28,13 @@
 - Claimed price or yield changes:
 - Measurement window and price convention:
 - Source of the claim:
+
+## Evidence and controls
+
+- Authorized data sources and license constraints:
+- Potential confidential or material non-public information to exclude/escalate:
+- Required source, market-data, and calculation records:
+- Human reviewer / intended use: internal analysis / publication / client / trading / regulatory:
 
 ## Pre-event baseline
 

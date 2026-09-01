@@ -11,6 +11,8 @@ Turn a market-moving headline into a verified, mechanism-based assessment. Estab
 
 The output may be a short explanation, event brief, pressure map, cross-asset table, scenario analysis, presentation, or formal report. Match depth to the request.
 
+For standard or deep work, read `references/evidence-pack.md` and keep the minimum source, market-data, calculation, and scenario records needed to reproduce the conclusion. A short answer does not require a full research pack.
+
 ## Start with verification
 
 Read `references/event-brief-template.md` and freeze the factual cutoff. Read `references/source-map.md` before broad external research. Resolve:
@@ -37,6 +39,8 @@ Use the narrowest possible timestamps. Record:
 
 Measure assets over explicit windows: intraday, close-to-close, week-to-date, month-to-date, or since a defined prior event. Never quote a percentage without its starting point, price convention, timezone, and source.
 
+Use data that was available at the stated cutoff. Record the series vintage and release timestamp for revised macro data. For securities, state whether the measure is price or total return, clean or dirty price, local or base currency, spot or futures, adjusted or unadjusted, and how holidays, rolls, coupons, dividends, and corporate actions were handled. Do not use a later revision to explain what the market knew at the event time unless it is labeled as hindsight.
+
 ## Classify the shock
 
 Read `references/transmission-framework.md`. Identify the primary shock before discussing assets:
@@ -61,7 +65,11 @@ Use these verdicts:
 - **market narrative:** widely repeated explanation without adequate identification;
 - **contradicted:** dates, instrument, magnitude, or observed reaction do not fit.
 
+Rate conclusion confidence as `high`, `moderate`, `low`, or `unresolved` from source quality, independence, timing fit, mechanism fit, controls and contradictions. Confidence is not the same as the number of citations.
+
 Do not claim that one headline caused every asset move. Distinguish anticipated policy from genuine surprise and announcement effects from implementation effects.
+
+When using a historical analogue, define the matching variables before selecting the episode: shock type, surprise, policy regime, inflation/growth regime, valuation, positioning, liquidity, and implementation. Report important mismatches and avoid choosing only episodes that support the thesis.
 
 ## Trace the transmission
 
@@ -114,6 +122,15 @@ Use a small set of causally distinct scenarios:
 
 For each scenario show trigger, affected variables, winners and losers, time horizon, leading indicators, and falsification conditions. Separate directional pressure from a point forecast.
 
+Attach probabilities only when the evidence supports them. State the as-of date, base rates or anchors, and assumptions; make mutually exclusive scenario probabilities sum to 100%. Do not disguise an unsupported point target as a probability-weighted forecast.
+
+## Institutional controls
+
+- Use public, licensed, user-provided, or otherwise authorized information. Do not seek or infer material non-public information; if supplied information may be confidential or price-sensitive, stop using it and flag the information-barrier or compliance issue.
+- Respect market-data licenses, privacy, sanctions, and source terms. Minimize personal data and do not expose credentials, private contacts, or restricted documents.
+- Preserve an audit trail for material numbers: source or series ID, data vintage, retrieval time, transformation, formula, and unit. Keep raw observations separate from adjusted or modeled values.
+- Treat the output as analyst decision support. Require qualified human review before publication, client use, trading, risk-limit changes, or regulatory reliance.
+
 ## Produce decision-ready visuals
 
 Use a timeline when announcement and implementation differ; a flow diagram when three or more transmission links matter; a cross-asset matrix for directional effects; a yield-curve or spread chart for rate events; and an FX triangle when a cross rate is being misunderstood.
@@ -144,9 +161,12 @@ Before delivery verify:
 - announcement is not confused with execution or settlement;
 - finance-ministry operations are not mislabeled as central-bank policy;
 - market windows and price conventions are explicit;
+- data vintages, revisions, return conventions, and transformations are explicit;
 - contemporaneous alternative causes were tested;
 - DXY is not treated as every bilateral dollar rate;
 - first-, second-, and real-economy effects are separated by horizon;
 - diagrams show conditional arrows rather than false certainty;
 - scenarios contain triggers and falsification conditions;
+- any scenario probabilities are anchored, dated, and internally coherent;
+- restricted or potentially material non-public information was excluded or escalated;
 - facts, causal judgments, and forecasts remain visibly distinct.

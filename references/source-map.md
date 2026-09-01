@@ -21,6 +21,8 @@ Check whether a release announces, authorizes, schedules, executes, or settles a
 
 Record ticker or series, quotation convention, timezone, frequency, adjustment, and exact window. A screenshot or current quote does not establish the historical path by itself.
 
+For point-in-time analysis, retain the release calendar and data vintage. Revised macro series, backfilled histories, constituent changes, benchmark methodology changes, futures rolls, corporate actions, and vendor timezone defaults can create hindsight or measurement bias.
+
 ## Macro and real-economy data
 
 - inflation, employment, wages, growth, consumption, investment, productivity, trade, and fiscal statistics;
@@ -59,3 +61,5 @@ Do not use a commentator's causal explanation as proof. Reconstruct timing and m
 - nominal and real yields can move for different reasons;
 - correlation after a headline is not sufficient causal identification;
 - revised macro data can change the historical interpretation.
+- two vendors can repeat the same underlying observation and are not independent confirmation;
+- a current database history can contain revisions unavailable to the market at the event time.

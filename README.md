@@ -29,13 +29,13 @@ The skill scales from a short explanation to a formal evidence-backed report.
 Clone the repository into the Codex skills directory:
 
 ```bash
-git clone https://github.com/KaigorodovTuskul/macro-market-event-analysis.git ~/.codex/skills/macro-market-event-analysis
+git clone https://github.com/KaigorodovTuskul/codex-skill-macro-market-event-analysis.git ~/.agents/skills/macro-market-event-analysis
 ```
 
 On Windows PowerShell:
 
 ```powershell
-git clone https://github.com/KaigorodovTuskul/macro-market-event-analysis.git "$env:USERPROFILE\.codex\skills\macro-market-event-analysis"
+git clone https://github.com/KaigorodovTuskul/codex-skill-macro-market-event-analysis.git "$env:USERPROFILE\.agents\skills\macro-market-event-analysis"
 ```
 
 Restart Codex after installation if the skill is not discovered immediately.
@@ -72,6 +72,7 @@ macro-market-event-analysis/
 └── references/
     ├── causality-and-scenarios.md
     ├── cross-asset-and-fx.md
+    ├── evidence-pack.md
     ├── event-brief-template.md
     ├── source-map.md
     └── transmission-framework.md
